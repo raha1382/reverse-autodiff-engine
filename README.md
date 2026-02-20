@@ -4,7 +4,7 @@
 
 This repository contains my implementation of a **reverse-mode automatic differentiation (autodiff) engine** from scratch, built as a programming exercise for my **Neural Networks course**.
 
-![Decision Boundary Evolution](results\decision_boundary_evolution.gif)
+![Decision Boundary Evolution](results/decision_boundary_evolution.gif)
 
 *Animation showing how the model's decision boundary evolves during training*
 
@@ -64,16 +64,20 @@ The repository includes experiments on the **spiral dataset** (3 classes, 2 feat
 | **Sigmoid + SGD (with momentum)** | Sigmoid activation with SGD + momentum - struggles with deeper regions |
 
 *1.ReLU activation with Adam optimizer - fastest convergence*
-![ReLU with Adam](results\RELU-ADAM.gif)
+
+![ReLU with Adam](results/RELU-ADAM.gif)
 
 *2.ReLU activation with SGD + momentum - stable learning*
-![ReLU with SGD (with momentum)](results\RELU-SGD(WITH-MOMENTUM).gif)
+
+![ReLU with SGD (with momentum)](results/RELU-SGD(WITH-MOMENTUM).gif)
 
 *3.Sigmoid activation with Adam - slower but smooth*
-![Sigmoid with Adam](results\SIGMOID-ADAM.gif)
+
+![Sigmoid with Adam](results/SIGMOID-ADAM.gif)
 
 *4.Sigmoid activation with SGD + momentum - struggles with deeper regions*
-![Sigmoid with SGD (with momentum)](results\SIGMOID-SGD(WITH-MOMENTUM).gif)
+
+![Sigmoid with SGD (with momentum)](results/SIGMOID-SGD(WITH-MOMENTUM).gif)
 
 
 ## 🚀 Key Features
